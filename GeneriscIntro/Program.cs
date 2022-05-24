@@ -6,7 +6,7 @@ namespace GeneriscIntro
     {
         static void Main(string[] args)
         {
-            MyList<string> Isimler =new MyList<string>();//generic yapı
+            MyList<string> Isimler =new MyList<string>();
             Isimler.Add("Tülay");
 
         }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP2
 {
-     class MusteriManager// iş sınıfları business clasees kurallar yazılır 
+     class MusteriManager// iş sınıfları business class kurallarI yazılır 
     {
         public void Ekle(Musteri musteri) // Musteri class adı 
         {

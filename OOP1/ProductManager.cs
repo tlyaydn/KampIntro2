@@ -4,12 +4,12 @@ using System.Text;
 
 namespace OOP1
 {
-   class ProductManager // ürün ile operasyonlar var silme eklme
+   class ProductManager // ürün ile irlgili  operasyonlar var silme ekleme
     {
-        //encapsulaciton tek tek belirmeyip clasa içinde hepsine vere
-     public void Add(Product product)//nasıl çegırcagını anlatım product sınııfna içinde ürün vaer
+        //encapsulaciton tek tek belirtmeyip class içinde 
+     public void Add(Product product)// product sınııfna içinde ürün ver
         {
-         Console.WriteLine(product.ProductName+"eklendi");
+         Console.WriteLine(product.ProductName+"Eklendi");
         }
         public void Update(Product product)
         {

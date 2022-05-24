@@ -10,16 +10,16 @@ namespace Donguler
             string[] kurslar = new string[] {"yazılım geliştirme","java",
             "programlama giriş"};
 
-            for (int i = 0; i <kurslar.Length; i++) //kuslar dinamik yapı yaptık kurslar 
+            for (int i = 0; i <kurslar.Length; i++) 
             {
-                Console.WriteLine(kurslar[i]);//dizideki döngüde yazarız
+                Console.WriteLine(kurslar[i]);
             }
             Console.WriteLine("for bitti");
-            foreach (string kurs in kurslar)//dizi yapk tek dolaş fore dizleruısını te
+            foreach (string kurs in kurslar)
             {
                 Console.WriteLine(kurs);
             }
-            Console.WriteLine("sayfa sonu footer");
+            Console.WriteLine("Sayfa Sonu Footer");
 
         }
     }

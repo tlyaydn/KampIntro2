@@ -4,7 +4,7 @@ namespace KampIntro2
 {
     internal class Program
     {
-        //do not speat yourself(kebdini tekrar etme)
+        //do not speat yourself(keNdini tekrar etme)
         static void Main(string[] args)
         {
             
@@ -17,23 +17,23 @@ namespace KampIntro2
             double dolarBugun = 7.45;
             if (dolarDun>dolarBugun)
             {
-                Console.WriteLine("azalış");
+                Console.WriteLine("Azalış");
             }
             else if(dolarDun < dolarBugun)
              {
-                Console.WriteLine("artış butonu");
+                Console.WriteLine("Artış butonu");
             }
             else
             {
-                Console.WriteLine("değişmedi");
+                Console.WriteLine("Değişmedi");
             }
             if (sistemeGirişYapmısmi==true)
             {
-                Console.WriteLine("Kullanııcı Ayarlatı butonu");
+                Console.WriteLine("Kullanııcı Ayarlama butonu");
             }
             else
             {
-                Console.WriteLine("Giriş Yap butuno");
+                Console.WriteLine("Giriş Yap butunu");
             }
 
             Console.WriteLine(kategoriEtiketi);

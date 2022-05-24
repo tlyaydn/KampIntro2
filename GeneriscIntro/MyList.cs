@@ -4,17 +4,17 @@ using System.Text;
 
 namespace GeneriscIntro
 {
-    class MyList<T>// T Tipi bagsadersadece string degil cllas herşey koyabilşriz generic clas
+    class MyList<T>
     {
         T[] items;
-        public MyList()//construvtor
+        public MyList()
         {
             items = new T[0];
         }
         public void Add(T item)
         {
-            T[] tempArray = items;//gecici dizi refarans tutat
-            items = new T[items.Length + 1];//elaman sayısı 1 artur
+            T[] tempArray = items;
+            items = new T[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];

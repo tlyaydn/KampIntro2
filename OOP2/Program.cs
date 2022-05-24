@@ -29,8 +29,8 @@ namespace OOP2
             mustegriManager.Ekle(musteri1);
             mustegriManager.Ekle(musteri2);
           
-            //GERÇEK MUSTERİ -TÜZEL MUSTERİ BİRBİRİN YERİNE KULLANILAMAZ 
-            //SOLID
+           
+            
 
         }
     }

@@ -14,8 +14,8 @@ namespace Metotlar
             urun2.Adi = "karpuz";
             urun2.Fiyati = 25;
             urun2.Aciklama = "adana karpuuz";
-            Product[] urunler = new Product[] { urun, urun2 };//veri kaynagından gelicek ileri syfalarda
-            foreach  (Product urun1 in urunler)//product sınııfın adı urun1 takma adı urunler dizi ismi 
+            Product[] urunler = new Product[] { urun, urun2 };
+            foreach  (Product urun1 in urunler)
             {
                 Console.WriteLine(urun1.Adi);
                 Console.WriteLine(urun1.Fiyati);

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP2
 { //coorporate tüzElmüsteri ingilizce
-    class TuzelMusteri:Musteri // miras INHERİTANCE TÜZEL MÜSTERİ BİR MÜSTERİDİR 
+    class TuzelMusteri:Musteri // miras INHERİTANCE TÜZEL MÜSTERİ BİR MÜŞTERİDİR 
     {
       
         public string SirketAdi { get; set; }

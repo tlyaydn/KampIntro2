@@ -11,7 +11,7 @@ namespace Metotlar
             Console.WriteLine(" Tebrikler Sepete Eklendi" +urun1.Adi);
 
         }
-        public void Ekle2(string urunadi,  string açıklma ,double fiyat)// urunadı ,açıklam ,fiyatı yaz ki eklensin
+        public void Ekle2(string urunadi,  string açıklma ,double fiyat)// urunadı ,açıklama ,fiyatı yaz ki eklensin
         {
 
         }

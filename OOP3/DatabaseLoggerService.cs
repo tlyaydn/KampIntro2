@@ -8,7 +8,7 @@ namespace OOP3
     {
         public void Log()
         {
-            Console.WriteLine("veri tabanına Loglandı");
+            Console.WriteLine("Veri Tabanına Loglandı");
         }
     }
 }
